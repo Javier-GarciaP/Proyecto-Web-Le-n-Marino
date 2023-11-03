@@ -1,62 +1,139 @@
-body {
-    background: #f2f2f2;
-    color: #333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
-  
-  .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }
-  
-  .menu img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .headerVideo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-  }
-  
-  .headerVideo video {
-    width: 100%;
-  }
-  
-  .headerVideo h1 {
-    font-size: 3em;
-    margin-top: 0;
-  }
-  
-  section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  article {
-    flex: 1 1 300px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  ul {
-    padding-left: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>León Marino</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="/src/image/logo.png">
+
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <nav>
+            <img src="/src/image/logo.png" alt="Icono de un León Marino">
+            <a href="#Inicio">Inicio</a>
+            <a href="#Caracterisitcas">Caracterisitcas</a>
+            <a href="#Habitat">Habitat</a>
+            <a href="#Galeria">Galeria</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="videoInicial">
+            <video autoplay muted preload loop src="/src/video/video.mp4"></video>
+            <h1>León Marino</h1>
+        </div>
+
+        <section>
+            <article id="Inicio">
+                <h2>Introducción al León Marino</h2>
+                <p>
+                    Los leones marinos, miembros de la familia de los Otariidae, son encantadores mamíferos marinos que
+                    habitan en diversas regiones costeras de todo el mundo. Con su distintiva apariencia y su adaptación
+                    única al medio acuático, estos carismáticos animales han capturado la atención y la admiración de
+                    personas de todas las edades y culturas.
+                </p>
+
+                <p>
+                    Conocidos por su agilidad en el agua y su comportamiento juguetón en tierra, los leones marinos han
+                    desarrollado una serie de adaptaciones físicas y comportamentales que los han ayudado a prosperar en
+                    su hábitat marino. Su presencia en las costas rocosas y playas arenosas ha enriquecido la
+                    biodiversidad de los ecosistemas marinos, convirtiéndolos en una parte integral del entorno costero
+                    en el que residen.
+                </p>
+
+                <p>
+                    A través de esta página web, nos sumergiremos en el fascinante mundo de los leones marinos,
+                    explorando su vida en el mar y en la tierra, su relación con otros habitantes marinos y las amenazas
+                    que enfrentan en un entorno cada vez más cambiante. Descubre los misterios y maravillas de estos
+                    magníficos animales mientras exploramos juntos su papel vital en la preservación del ecosistema
+                    marino.
+                </p>
+            </article>
+
+            <article id="Caracterisitcas">
+                <h2>Caracterisitcas</h2>
+                <p>
+                    Los leones marinos se distinguen por su impresionante tamaño y su apariencia imponente. Los machos
+                    suelen ser considerablemente más grandes que las hembras, con un peso que puede oscilar entre 200 y
+                    1,000 kilogramos y una longitud que puede alcanzar los 2.5 metros. Su pelaje, generalmente de tonos
+                    marrones o grisáceos, les proporciona una capa aislante vital para sobrevivir en aguas frías.
+                    Además, los leones marinos poseen aletas pectorales potentes que les permiten nadar con agilidad y
+                    destreza en su entorno marino.
+                </p>
+
+                <p>
+                    En tierra, los leones marinos suelen descansar y tomar el sol para regular su temperatura corporal,
+                    a menudo formando agrupaciones compactas para conservar el calor y fomentar la interacción social.
+                    Durante la temporada de reproducción, los machos compiten ferozmente por el control de harenes de
+                    hembras, exhibiendo comportamientos territoriales y agresivos que reflejan su naturaleza poligínica.
+                </p>
+            </article>
+
+            <article id="Habitat">
+                <h2>Habitat</h2>
+                <p>
+                    Los leones marinos son habitantes emblemáticos de una variedad de hábitats costeros y marinos en
+                    todo el mundo, ocupando extensas regiones que abarcan desde aguas templadas hasta gélidas. Se les
+                    encuentra comúnmente en las costas rocosas, playas arenosas, islas remotas y plataformas de hielo,
+                    prefiriendo áreas donde la presencia de alimento marino es abundante y accesible.
+                </p>
+
+                <p>
+                    El ecosistema marino que alberga a los leones marinos es diverso y dinámico, con una amplia gama de
+                    presas potenciales, como peces, calamares y crustáceos, que constituyen la base de su dieta. Además,
+                    los leones marinos comparten su hábitat con una variedad de depredadores marinos, incluyendo
+                    tiburones y orcas, lo que subraya la importancia de mantener un equilibrio ecológico saludable para
+                    garantizar su supervivencia a largo plazo.
+                </p>
+            </article>
+
+            <article>
+                <h2>Datos curiosos</h2>
+                <ul>
+                    <li>
+                        Los leones marinos son conocidos por su agilidad en el agua, pudiendo alcanzar velocidades de
+                        hasta 35 kilómetros por hora.
+                    </li>
+                    <li>
+                        Aunque pasan la mayor parte de su vida en el agua, los leones marinos también disfrutan tomando
+                        el sol en la costa para regular su temperatura corporal.
+                    </li>
+                    <li>
+                        Algunas especies de leones marinos pueden sumergirse a profundidades de hasta 300 metros en
+                        busca de alimento.
+                    </li>
+                    <li>
+                        Los leones marinos poseen una visión aguda tanto en tierra como bajo el agua, lo que les permite
+                        detectar presas y depredadores con facilidad.
+                    </li>
+                    <li>
+                        Los machos adultos de león marino pueden producir rugidos poderosos y distintivos para
+                        establecer su dominio y atraer a las hembras durante la temporada de reproducción.
+                    </li>
+                </ul>
+            </article>
+
+        </section>
+        <div id="Galeria">
+            <img src="/src/image/leon1.jpg" alt="Imagen de Leon Marino en la Playa">
+            <img src="/src/image/leon2.jpg" alt="Imagen de Leon Marino en la Playa">
+            <img src="/src/image/leon3.jpg" alt="Imagen de Leon Marino en la Playa">
+            <img src="/src/image/leon4.jpg" alt="Imagen de Leon Marino en la Playa">
+        </div>
+    </main>
+
+    <footer>
+        <p> Realizado por José Javier Garcia Peñaloza</p>
+    </footer>
+
+</body>
+
+</html>
